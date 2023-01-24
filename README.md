@@ -31,6 +31,12 @@
   <a href="#-how-to-contribute">How to contribute</a>
 </p>
 
+</br>
+
+<p align="center">
+  <img alt="ig.news" src=".github/home.png">
+</p>
+
 ## 📰 About the project
 
 ig.news is a blog where users can access the full content of each post through a subscription.
@@ -52,6 +58,7 @@ Technologies that I used to develop this application
 ## 💻 Getting started
 
 ### Requirements
+
 **Clone the project and access the folder**
 
 ```bash
