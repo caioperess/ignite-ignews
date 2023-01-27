@@ -4,6 +4,7 @@ import GithubProvider from "next-auth/providers/github";
 import { query as q } from "faunadb";
 
 export const authOptions = {
+  secret: process.env.AUTH_SECRET,
   providers: [
     GithubProvider({
       clientId: process.env.GITHUB_ID!,
