@@ -13,6 +13,14 @@ const config = {
     // Handle module aliases
     "^@/(.*)$": "<rootDir>/src/$1",
   },
+  collectCoverage: true,
+  collectCoverageFrom: [
+    "src/**/*.tsx",
+    "!src/**/*.spec.tsx",
+    "!**/node_modules/**",
+    "!**/vendor/**",
+  ],
+  coverageReporters: ["json", "lcov"],
 };
 
 module.exports = config;
