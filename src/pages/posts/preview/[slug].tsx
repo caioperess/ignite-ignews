@@ -4,7 +4,7 @@ import { useSession } from "next-auth/react";
 import Head from "next/head";
 import Link from "next/link";
 import { RichText } from "prismic-dom";
-import { getPrismicClient } from "prismicio";
+import { getPrismicClient } from "../../../../prismicio";
 
 import styles from "../post.module.scss";
 import { useRouter } from "next/router";
