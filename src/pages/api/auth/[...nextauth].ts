@@ -22,7 +22,7 @@ export const authOptions = {
     }),
   ],
   callbacks: {
-    async session({ session }) {
+    async session({ session }: any) {
       try {
         const userActiveSubscription = await fauna.query(
           q.Get(
